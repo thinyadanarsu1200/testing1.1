@@ -1,5 +1,8 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	/* height: 1000px; */
 	font-family: 'Operator Mono';
 }
 
@@ -39,6 +42,11 @@ a {
 	text-transform: uppercase;
 }
 
+.main {
+	display: flex;
+	margin-top: 0.7em;
+}
+
 .sidebar {
 	width: 20%;
 	height: 600px;
@@ -73,4 +81,32 @@ a {
 
 .sidebar-wrapper ul li.active a {
 	color: blue;
+}
+
+.main-content {
+	width: 60%;
+	margin: 0 1em;
+	background-color: #e2e2e2;
+	border-radius: 10px;
+}
+
+.main-content h1,
+.widget h1 {
+	padding-left: 2em;
+	color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.widget {
+	width: 20%;
+	background-color: #e2e2e2;
+	border-radius: 10px;
+}
+
+.creative {
+	color: blue;
+	font-size: 2rem;
+	margin-right: 0.1em;
 }
