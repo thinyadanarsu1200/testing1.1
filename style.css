@@ -1,0 +1,22 @@
+.header {
+	background: linear-gradient(
+		to right,
+		rgb(241, 98, 241) 0%,
+		rgb(37, 37, 226) 90%
+	);
+	color: rgb(235, 177, 177);
+	padding: 2em;
+	text-align: center;
+	font-family: 'Operator Mono';
+	border-radius: 10px;
+}
+
+/* psedo element */
+::selection {
+	background-color: rgb(143, 143, 199);
+}
+
+.sub-title {
+	color: #333;
+	text-transform: uppercase;
+}
