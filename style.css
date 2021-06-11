@@ -110,3 +110,16 @@ a {
 	font-size: 2rem;
 	margin-right: 0.1em;
 }
+
+/* footer  */
+.footer{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 2px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 10px;
+	margin: 1em 0 0;
+}

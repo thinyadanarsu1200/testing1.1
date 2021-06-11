@@ -15,3 +15,7 @@ hope you will enjoy it
 
 You can see all of our companity's informations
 You can find it what you need
+
+# Footer 
+
+This is footer of our project page
